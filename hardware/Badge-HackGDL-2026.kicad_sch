@@ -1,0 +1,597 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "aee06ce3-1da5-4230-bf8f-9d1068f7ddd5")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 102.87 116.84) (xy 193.04 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 23 32 1)
+		)
+		(uuid "0b7f5359-24a7-4dd7-926e-75597445e918")
+	)
+	(wire
+		(pts
+			(xy 193.04 95.25) (xy 193.04 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 23 32 1)
+		)
+		(uuid "5891542c-cf5b-4747-bf95-6679dda26c32")
+	)
+	(wire
+		(pts
+			(xy 102.87 111.76) (xy 93.98 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 23 32 1)
+		)
+		(uuid "9e0aa638-4a25-46cc-b9a1-b780509f0bf4")
+	)
+	(wire
+		(pts
+			(xy 102.87 116.84) (xy 102.87 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 23 32 1)
+		)
+		(uuid "a306886d-4f69-4a7d-8ec2-93846723a281")
+	)
+	(wire
+		(pts
+			(xy 193.04 95.25) (xy 200.66 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 23 32 1)
+		)
+		(uuid "a623f067-2d99-44d2-8e1f-abc50e759972")
+	)
+	(sheet
+		(at 200.66 71.12)
+		(size 19.558 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5a360f26-70d4-4176-9a29-c32de3cbc2f1")
+		(property "Sheetname" "Otros"
+			(at 200.66 70.4084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Otros.kicad_sch"
+			(at 200.66 99.6446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SCL" bidirectional
+			(at 200.66 78.486 180)
+			(uuid "de0008d3-7cc3-4838-ae96-a1b710a837e3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA" bidirectional
+			(at 200.66 75.946 180)
+			(uuid "0fe9607f-97d9-4299-9b81-ed612d7e44f2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+3.3v" input
+			(at 200.66 96.266 180)
+			(uuid "0c1ca66f-2c89-43dc-8757-7b6112abdb86")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DIN_IR" input
+			(at 200.66 83.566 180)
+			(uuid "25b68ef0-2f3e-47c7-9db7-e494caf2fc8e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PB1" output
+			(at 200.66 88.646 180)
+			(uuid "e6dad75e-7349-4d7c-836c-cb4cf66601ca")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PB2" output
+			(at 200.66 91.186 180)
+			(uuid "b8d501f5-1f53-414b-ad70-a7552b1939d1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Badge-HackGDL-2026"
+				(path "/aee06ce3-1da5-4230-bf8f-9d1068f7ddd5"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 212.852 130.302)
+		(size 19.05 17.526)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "81efd129-08c1-4996-9ee0-a58d47ad59bf")
+		(property "Sheetname" "Cam"
+			(at 212.852 129.5904 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Cam.kicad_sch"
+			(at 212.852 148.4126 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Badge-HackGDL-2026"
+				(path "/aee06ce3-1da5-4230-bf8f-9d1068f7ddd5"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 74.676 82.296)
+		(size 19.05 33.274)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9216b3fb-a893-416d-8287-fad5dc178c46")
+		(property "Sheetname" "USB"
+			(at 74.676 81.5844 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB.kicad_sch"
+			(at 74.676 116.586 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "USB_DET" output
+			(at 93.726 99.568 0)
+			(uuid "4476be3f-7302-45ad-9d60-e0f9bd0aec61")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VCC" output
+			(at 93.726 85.598 0)
+			(uuid "cb57b8cc-fa8a-450f-9bb7-a58afdd15254")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "D+" bidirectional
+			(at 93.726 94.488 0)
+			(uuid "46ef5a01-9261-48c6-aea4-b2845469c976")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "D-" bidirectional
+			(at 93.726 97.028 0)
+			(uuid "57d41230-bc58-46dd-aa49-533ae009ac28")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "+3.3v" output
+			(at 93.726 112.268 0)
+			(uuid "90c7e15e-a7c8-429d-a1d4-2d736ccb8ca2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Battery" output
+			(at 93.726 104.648 0)
+			(uuid "f84ae643-b6fe-40cc-81d6-33b46dbdddac")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Enable" input
+			(at 93.726 107.188 0)
+			(uuid "b940eedb-6028-4422-94a5-d4b24342bfa8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Badge-HackGDL-2026"
+				(path "/aee06ce3-1da5-4230-bf8f-9d1068f7ddd5"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 101.854 68.326)
+		(size 22.86 20.828)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "be913e68-fee3-438d-ad2e-2a6c5a9b4d89")
+		(property "Sheetname" "Buck_Converter"
+			(at 101.854 67.6144 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Buck_Converter.kicad_sch"
+			(at 101.854 89.7386 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "VCC_DDR" output
+			(at 124.714 73.914 0)
+			(uuid "d94f22ce-bb02-495c-9d45-1ec3f1accf70")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "v_0.9v" output
+			(at 124.714 76.454 0)
+			(uuid "f8f06194-1c4a-46e8-8ab4-d3b3973bf845")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "v_1.8v" output
+			(at 124.714 78.994 0)
+			(uuid "d3d67480-2091-4822-a815-8caa4896c04a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "v_3v3" output
+			(at 124.714 81.534 0)
+			(uuid "9dee3ee7-6d65-4d2b-8493-ad5cf6b4b8ff")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VCC" input
+			(at 101.854 85.344 180)
+			(uuid "b1bd585e-51c7-41f7-8074-99b43152eca7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Badge-HackGDL-2026"
+				(path "/aee06ce3-1da5-4230-bf8f-9d1068f7ddd5"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 155.194 68.58)
+		(size 31.75 42.672)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f95a1a7a-56c9-4e5d-a871-88a3235c1340")
+		(property "Sheetname" "MCU"
+			(at 155.194 67.8684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 155.194 112.014 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "VCC_DDR" input
+			(at 155.194 74.168 180)
+			(uuid "0a10f52b-b217-4a2e-9e94-6c66dff398b6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "v_0.9v" input
+			(at 155.194 76.708 180)
+			(uuid "a578ccc0-7f9b-41fb-9833-7a0124b384d7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "v_1.8v" input
+			(at 155.194 79.248 180)
+			(uuid "11cdb30a-9374-4572-aa5a-9e6c3f104ce8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "v_3v3" input
+			(at 155.194 81.788 180)
+			(uuid "9c6d637f-8b2f-4378-8781-254327d9d529")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_DET" input
+			(at 155.194 99.568 180)
+			(uuid "1978b272-8af4-41ab-9e7b-f017bd577694")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DIN_IR" output
+			(at 186.944 83.058 0)
+			(uuid "0f804bb3-19b2-4ef3-a5ad-1e28d403c991")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCL" bidirectional
+			(at 186.944 79.248 0)
+			(uuid "0b0c508c-2754-41f8-bd26-ae03e74d9830")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDA" bidirectional
+			(at 186.944 76.708 0)
+			(uuid "dff634a3-b6bb-4112-a0dc-e152641a38f7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "D+" bidirectional
+			(at 155.194 94.488 180)
+			(uuid "569492d1-c9ec-49c0-ad7e-25736a24503c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "D-" bidirectional
+			(at 155.194 97.028 180)
+			(uuid "6fb4e939-2ccd-463b-bfb6-e152a8e39bdf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Battery" input
+			(at 155.194 104.648 180)
+			(uuid "ddaa4082-0cd5-42d8-bfd6-8f47273ee0ba")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Enable" output
+			(at 155.194 107.188 180)
+			(uuid "a90a06bb-6d21-44ce-870f-fd2eaa6ad368")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PB1" input
+			(at 186.944 89.408 0)
+			(uuid "f7934a0e-d880-43f6-aada-5c76ff9b6b4f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PB2" input
+			(at 186.944 91.948 0)
+			(uuid "1c40947c-51eb-48b3-80d1-a9a7dc9ea662")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Badge-HackGDL-2026"
+				(path "/aee06ce3-1da5-4230-bf8f-9d1068f7ddd5"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
