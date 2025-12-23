@@ -1,0 +1,125 @@
+(footprint "Camera"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "2f35ff5a-7bb2-4914-b4b2-ed62915e1ab6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Camera"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "0a3693e3-0ad4-4daf-ba1a-a392d1f881bb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "be7b83ca-6956-4989-a2d9-249344d96c33")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cd10ba25-942e-4dd4-b2f0-31874cb0616b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -12.5 -12)
+		(end 12.5 12)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "9b972a86-31d7-454c-9735-51a72335db8b")
+	)
+	(fp_circle
+		(center -10.5 -10)
+		(end -9.5 -10)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "0cd20c35-3033-43e3-8a7d-02dddefbf40d")
+	)
+	(fp_circle
+		(center -10.5 3.5)
+		(end -9.5 3.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "0ed9d8b4-8e33-40a3-88c5-1eb14315cbcc")
+	)
+	(fp_circle
+		(center 10.5 -10)
+		(end 11.5 -10)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "2ef0dc04-c006-4b28-8397-afa03d75f586")
+	)
+	(fp_circle
+		(center 10.5 3.5)
+		(end 11.5 3.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "ae0ec5e9-e6e6-45e5-aec2-7c651030d8ef")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d4fe4f57-5870-4c90-a303-4efc76ef01af")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(embedded_fonts no)
+)
