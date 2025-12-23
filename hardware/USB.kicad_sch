@@ -6857,7 +6857,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "9.09K"
 			(at 209.55 71.1199 0)
 			(effects
 				(font
@@ -6911,7 +6911,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" "C2759535"
+		(property "LCSC#" "C852966"
 			(at 207.01 69.85 0)
 			(effects
 				(font
@@ -8848,7 +8848,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10.7K"
+		(property "Value" "12.3K"
 			(at 209.55 58.4199 0)
 			(effects
 				(font
@@ -8902,7 +8902,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" "C2998172"
+		(property "LCSC#" "C346621"
 			(at 207.01 57.15 0)
 			(effects
 				(font
