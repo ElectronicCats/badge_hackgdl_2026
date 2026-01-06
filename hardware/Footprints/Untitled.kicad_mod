@@ -54,6 +54,28 @@
 		)
 	)
 	(attr smd)
+	(fp_rect
+		(start -12.51 -8.74)
+		(end 12.49 15.26)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "bf06d455-e2ec-446f-a3a5-6464b72085c6")
+	)
+	(fp_rect
+		(start -7.11 10.26)
+		(end 7.09 15.26)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "b78e81c7-15e6-4115-98f8-03cd37e546fc")
+	)
 	(fp_circle
 		(center -10.5 -6.75)
 		(end -9.5 -6.75)

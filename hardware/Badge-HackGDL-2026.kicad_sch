@@ -255,7 +255,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 111.76) (xy 113.03 134.62)
+			(xy 113.03 111.76) (xy 113.03 138.43)
 		)
 		(stroke
 			(width 0)
@@ -273,6 +273,16 @@
 			(color 255 59 54 1)
 		)
 		(uuid "c2add77e-d9d9-4dff-93ca-2ba7b6f18954")
+	)
+	(wire
+		(pts
+			(xy 186.69 130.81) (xy 200.66 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dddd71a9-6834-4b8f-a445-5bd4e62331aa")
 	)
 	(wire
 		(pts
@@ -337,7 +347,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 134.62) (xy 200.66 134.62)
+			(xy 113.03 138.43) (xy 200.66 138.43)
 		)
 		(stroke
 			(width 0)
@@ -347,7 +357,7 @@
 	)
 	(sheet
 		(at 200.66 109.474)
-		(size 19.558 28.956)
+		(size 19.558 32.766)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -371,7 +381,7 @@
 			)
 		)
 		(property "Sheetfile" "Otros.kicad_sch"
-			(at 200.66 139.0146 0)
+			(at 200.66 142.8246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -400,7 +410,7 @@
 			)
 		)
 		(pin "+3.3v" input
-			(at 200.66 134.62 180)
+			(at 200.66 138.43 180)
 			(uuid "575c2966-b00e-4d38-ae63-98836530447e")
 			(effects
 				(font
@@ -452,6 +462,16 @@
 		(pin "UP" input
 			(at 200.66 128.27 180)
 			(uuid "f212262a-5e3e-4caa-abc5-c0c66abae0b0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DIN_IR" input
+			(at 200.66 130.81 180)
+			(uuid "ecfcc32f-abf8-4c1d-86a2-bd0078439e4f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -824,7 +844,7 @@
 	)
 	(sheet
 		(at 154.94 69.342)
-		(size 31.75 61.976)
+		(size 31.75 65.278)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -847,7 +867,7 @@
 			)
 		)
 		(property "Sheetfile" "MCU.kicad_sch"
-			(at 154.94 132.588 0)
+			(at 154.94 135.382 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1108,6 +1128,16 @@
 		(pin "UP" input
 			(at 186.69 128.27 0)
 			(uuid "41f6da2a-f9fb-4535-8cc0-0483433f96bc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DIN_IR" output
+			(at 186.69 130.81 0)
+			(uuid "f709b085-52e6-4e8c-8a4d-edfa05df976b")
 			(effects
 				(font
 					(size 1.27 1.27)
