@@ -1593,16 +1593,15 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x20")
-		(at 157.48 64.77 0)
-		(mirror x)
+		(at 157.48 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "5a033f70-ade4-4e6b-83bc-19b8a8473f90")
-		(property "Reference" "J1"
-			(at 157.48 33.02 0)
+		(property "Reference" "J?"
+			(at 157.48 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1610,7 +1609,7 @@
 			)
 		)
 		(property "Value" "Conn_01x20"
-			(at 157.48 35.56 0)
+			(at 157.48 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1618,7 +1617,7 @@
 			)
 		)
 		(property "Footprint" "Connector_FFC-FPC:Hirose_FH12-20S-0.5SH_1x20-1MP_P0.50mm_Horizontal"
-			(at 157.48 64.77 0)
+			(at 157.48 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1627,7 +1626,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 157.48 64.77 0)
+			(at 157.48 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1636,7 +1635,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x20, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 157.48 64.77 0)
+			(at 157.48 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1645,7 +1644,7 @@
 			)
 		)
 		(property "Mnfr#" ""
-			(at 157.48 64.77 0)
+			(at 157.48 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1654,7 +1653,7 @@
 			)
 		)
 		(property "SNAPEDA_PN" ""
-			(at 157.48 64.77 0)
+			(at 157.48 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1723,6 +1722,12 @@
 			(uuid "bac0ecec-e493-4c56-98d8-4ed9b34e84d5")
 		)
 		(instances
+			(project "Cam"
+				(path "/4f679915-e6d1-4835-bbdc-b9d0e7615f17"
+					(reference "J?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/aee06ce3-1da5-4230-bf8f-9d1068f7ddd5/81efd129-08c1-4996-9ee0-a58d47ad59bf"
 					(reference "J1")
@@ -1741,7 +1746,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a90ee384-7a06-481c-a32e-93fb85395534")
-		(property "Reference" "J3"
+		(property "Reference" "J?"
 			(at 53.975 62.23 0)
 			(effects
 				(font
@@ -1797,6 +1802,12 @@
 			(uuid "838d4cd5-04f8-4059-8d18-97860cf4dcb7")
 		)
 		(instances
+			(project "Cam"
+				(path "/4f679915-e6d1-4835-bbdc-b9d0e7615f17"
+					(reference "J?")
+					(unit 1)
+				)
+			)
 			(project "Badge-HackGDL-2026"
 				(path "/aee06ce3-1da5-4230-bf8f-9d1068f7ddd5/81efd129-08c1-4996-9ee0-a58d47ad59bf"
 					(reference "J3")
@@ -1814,7 +1825,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "acb06572-1d8b-4b92-9d42-cc3013b3fb77")
-		(property "Reference" "#PWR0125"
+		(property "Reference" "#PWR?"
 			(at 137.16 36.83 0)
 			(effects
 				(font
@@ -1862,6 +1873,12 @@
 			(uuid "c96eafcc-9666-470c-8b36-ef6bb7defaa3")
 		)
 		(instances
+			(project "Cam"
+				(path "/4f679915-e6d1-4835-bbdc-b9d0e7615f17"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "Badge-HackGDL-2026"
 				(path "/aee06ce3-1da5-4230-bf8f-9d1068f7ddd5/81efd129-08c1-4996-9ee0-a58d47ad59bf"
 					(reference "#PWR0125")
@@ -1879,7 +1896,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b793e868-0e5b-4bff-9863-629556cdece9")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR?"
 			(at 137.16 97.79 0)
 			(effects
 				(font
@@ -1927,6 +1944,12 @@
 			(uuid "3651f25c-bd95-4693-8c25-731bd113d359")
 		)
 		(instances
+			(project "Cam"
+				(path "/4f679915-e6d1-4835-bbdc-b9d0e7615f17"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "Badge-HackGDL-2026"
 				(path "/aee06ce3-1da5-4230-bf8f-9d1068f7ddd5/81efd129-08c1-4996-9ee0-a58d47ad59bf"
 					(reference "#PWR09")
@@ -1945,7 +1968,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fd2030a2-d377-43ce-a593-47f9bdcefe4a")
-		(property "Reference" "FID1"
+		(property "Reference" "FID?"
 			(at 55.88 53.3399 0)
 			(effects
 				(font
@@ -2000,6 +2023,12 @@
 			)
 		)
 		(instances
+			(project "Cam"
+				(path "/4f679915-e6d1-4835-bbdc-b9d0e7615f17"
+					(reference "FID?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/aee06ce3-1da5-4230-bf8f-9d1068f7ddd5/81efd129-08c1-4996-9ee0-a58d47ad59bf"
 					(reference "FID1")
@@ -2008,4 +2037,10 @@
 			)
 		)
 	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )
