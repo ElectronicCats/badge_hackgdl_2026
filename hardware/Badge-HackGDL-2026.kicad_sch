@@ -6,10 +6,10 @@
 	(paper "A4")
 	(lib_symbols)
 	(junction
-		(at 147.32 72.39)
+		(at 193.04 138.43)
 		(diameter 0)
-		(color 255 59 54 1)
-		(uuid "5ee65b76-0425-4519-856d-3f350e687a19")
+		(color 255 38 39 1)
+		(uuid "c20fdc4a-a5bb-440d-b90c-82a543de4138")
 	)
 	(wire
 		(pts
@@ -53,7 +53,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 72.39) (xy 147.32 72.39)
+			(xy 129.54 72.39) (xy 154.94 72.39)
 		)
 		(stroke
 			(width 0)
@@ -149,6 +149,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 255 38 39 1)
 		)
 		(uuid "5276bda6-bac3-4394-9eb0-1eecab25c8bd")
 	)
@@ -204,17 +205,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 66.04) (xy 200.66 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 59 54 1)
-		)
-		(uuid "837ed0a0-6f5c-4499-ac5f-7eca369d188e")
-	)
-	(wire
-		(pts
 			(xy 186.69 78.74) (xy 200.66 78.74)
 		)
 		(stroke
@@ -235,6 +225,17 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 99.06) (xy 193.04 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 38 39 1)
+		)
+		(uuid "9a282f18-1a6e-4c9d-9521-addfbc96e6d4")
+	)
+	(wire
+		(pts
 			(xy 186.69 73.66) (xy 200.66 73.66)
 		)
 		(stroke
@@ -242,6 +243,17 @@
 			(type default)
 		)
 		(uuid "9e9a05f5-4479-468e-9ffa-adde3343be40")
+	)
+	(wire
+		(pts
+			(xy 193.04 99.06) (xy 193.04 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 38 39 1)
+		)
+		(uuid "b7d634af-3179-4bb8-b677-198b793e2146")
 	)
 	(wire
 		(pts
@@ -260,19 +272,9 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 255 38 39 1)
 		)
 		(uuid "c0582a8e-d84c-4dbc-9947-66c713e0eb9c")
-	)
-	(wire
-		(pts
-			(xy 147.32 72.39) (xy 147.32 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 59 54 1)
-		)
-		(uuid "c2add77e-d9d9-4dff-93ca-2ba7b6f18954")
 	)
 	(wire
 		(pts
@@ -293,17 +295,6 @@
 			(type default)
 		)
 		(uuid "df9987f8-0bb8-417d-b23f-8b428a2d6d9c")
-	)
-	(wire
-		(pts
-			(xy 147.32 72.39) (xy 154.94 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 59 54 1)
-		)
-		(uuid "e143f3a0-ea20-49fe-b498-92f3ef749780")
 	)
 	(wire
 		(pts
@@ -337,6 +328,17 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 138.43) (xy 200.66 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 38 39 1)
+		)
+		(uuid "f2b76384-7c6f-4375-a0db-842bc128b27b")
+	)
+	(wire
+		(pts
 			(xy 129.54 74.93) (xy 154.94 74.93)
 		)
 		(stroke
@@ -347,11 +349,12 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 138.43) (xy 200.66 138.43)
+			(xy 113.03 138.43) (xy 193.04 138.43)
 		)
 		(stroke
 			(width 0)
 			(type default)
+			(color 255 38 39 1)
 		)
 		(uuid "fbd40b68-b485-47cc-84ab-ec27d41a5add")
 	)
@@ -488,8 +491,8 @@
 		)
 	)
 	(sheet
-		(at 200.66 61.976)
-		(size 18.796 37.592)
+		(at 200.66 71.12)
+		(size 18.796 30.48)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -504,7 +507,7 @@
 		)
 		(uuid "81efd129-08c1-4996-9ee0-a58d47ad59bf")
 		(property "Sheetname" "Cam"
-			(at 200.66 61.2644 0)
+			(at 200.66 70.4084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -513,7 +516,7 @@
 			)
 		)
 		(property "Sheetfile" "Cam.kicad_sch"
-			(at 200.66 100.1526 0)
+			(at 200.66 102.1846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -621,9 +624,9 @@
 				(justify left)
 			)
 		)
-		(pin "v_3v3" output
-			(at 200.66 66.04 180)
-			(uuid "727b808e-a1a1-4098-958e-57ec7b4678bb")
+		(pin "+3.3v" input
+			(at 200.66 99.06 180)
+			(uuid "7d1e4eda-89b4-43dc-88c2-4fd80f86ed81")
 			(effects
 				(font
 					(size 1.27 1.27)
