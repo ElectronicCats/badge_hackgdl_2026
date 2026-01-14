@@ -475,11 +475,11 @@
 		(uuid "8f3c04b3-54b7-473d-a784-d4ea94dd79dc")
 	)
 	(gr_rect
-		(start 188.98 56.26)
-		(end 210.64 134.32)
+		(start 187.31 54.29)
+		(end 212.31 136.29)
 		(stroke
 			(width 0.05)
-			(type default)
+			(type solid)
 		)
 		(fill no)
 		(layer "Edge.Cuts")
