@@ -853,6 +853,48 @@
 		)
 	)
 	(sheet
+		(at 120.65 113.03)
+		(size 22.86 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "dd803ed6-1aa2-418d-9e6a-4bdae0300c80")
+		(property "Sheetname" "Support pins"
+			(at 120.65 112.3184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Support pins.kicad_sch"
+			(at 120.65 131.3946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Badge-HackGDL-2026"
+				(path "/aee06ce3-1da5-4230-bf8f-9d1068f7ddd5"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 154.94 69.342)
 		(size 31.75 65.278)
 		(exclude_from_sim no)
