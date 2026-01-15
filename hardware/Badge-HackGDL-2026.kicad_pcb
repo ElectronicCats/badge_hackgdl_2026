@@ -7,6 +7,13 @@
 		(legacy_teardrops no)
 	)
 	(paper "A4")
+	(title_block
+		(title "Badge-HackGDL-2026")
+		(date "2026-01-15")
+		(rev "v1.0")
+		(company "Electronic Cats")
+		(comment 1 "Lizeth Gallegos Martínez")
+	)
 	(layers
 		(0 "F.Cu" signal)
 		(2 "B.Cu" signal)
@@ -3585,6 +3592,17 @@
 			(uuid "b57f353b-d378-4e1f-a5c6-a90372cef25b")
 		)
 		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_Push_1P1T_NO_CK_KSC7xxJ.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Button_Switch_SMD:SW_SPST_TL3342"
 		(locked yes)
@@ -10408,7 +10426,7 @@
 			(uuid "df687481-08bf-4381-8728-d7f7212819b3")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/VQFN-24-1EP_4x4mm_P0.5mm_EP2.5x2.5mm.step"
+		(model "${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/Texas_RTW_WQFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.7mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -12337,7 +12355,7 @@
 		(descr "WSON, 8 Pin (https://datasheet.lcsc.com/lcsc/2204011730_GigaDevice-Semicon-Beijing-GD5F1GQ4UFYIGR_C2986324.pdf (page 44)), generated with kicad-footprint-generator ipc_noLead_generator.py")
 		(tags "WSON NoLead")
 		(property "Reference" "U6"
-			(at 0 3.95 270)
+			(at 0 3.95 90)
 			(layer "B.SilkS")
 			(uuid "d0ee3803-bb20-4190-b05f-f247b75d7dcd")
 			(effects
@@ -13133,7 +13151,7 @@
 			(uuid "f4ee1003-0658-43fe-b973-0b1debd419a3")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Package_SON.3dshapes/WSON-8-1EP_8x6mm_P1.27mm_EP3.4x4.3mm.step"
+		(model "${KIPRJMOD}/Footprints/SON_WSON8_ZE_WIN.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -17229,7 +17247,7 @@
 			(uuid "9af54365-e6e7-49a4-b2b5-d281e6c6e1ce")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.3mm.step"
+		(model "${KICAD9_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-8_3.9x4.9mm_P1.27mm.step"
 			(offset
 				(xyz 0 0 0)
 			)

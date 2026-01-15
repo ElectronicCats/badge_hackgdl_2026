@@ -4,6 +4,13 @@
 	(generator_version "9.0")
 	(uuid "05e27584-c724-4f82-b780-aaa44a7e802b")
 	(paper "A3")
+	(title_block
+		(title "Badge-HackGDL-2026")
+		(date "2026-01-15")
+		(rev "v1.0")
+		(company "Electronic Cats")
+		(comment 1 "Lizeth Gallegos Martínez")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x04_Pin"
 			(pin_names
