@@ -21966,6 +21966,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC#" "C5224027"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "27808105-bf17-4e0c-8c21-5676782fd8e1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/dd803ed6-1aa2-418d-9e6a-4bdae0300c80/16e653d8-92d2-4b66-b2cc-a8dba6c66c25")
 		(sheetname "/Support pins/")
@@ -30251,6 +30265,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC#" "C5224027"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a9dceca8-332a-47ca-bbb1-f2e5cde1d90b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/dd803ed6-1aa2-418d-9e6a-4bdae0300c80/218adf00-e38b-4a51-9383-c076cffc7f3b")
 		(sheetname "/Support pins/")
@@ -34158,6 +34186,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "936572da-851d-4125-897d-669bdad51749")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC#" "C2906119"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "fb210dab-ef14-4ad1-b581-2e7253f09e72")
 			(effects
 				(font
 					(size 1 1)
@@ -46084,6 +46126,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC#" "C5224027"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "3bdbb24c-24fe-4d41-8a4c-08e0106d7b44")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/dd803ed6-1aa2-418d-9e6a-4bdae0300c80/3d9dc9e6-0321-4c61-9435-e1b92c33f25c")
 		(sheetname "/Support pins/")
@@ -52601,6 +52657,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC#" "C5224027"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "4f826129-8819-4aef-95a8-a5c21100e2a4")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
