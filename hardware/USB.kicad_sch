@@ -5357,7 +5357,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "Bateria 18650 3.7V 2200mAh ±5% "
+		(property "manf#" ""
 			(at 210.82 31.75 0)
 			(effects
 				(font
