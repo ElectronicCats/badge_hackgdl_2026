@@ -1,0 +1,1214 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "aee06ce3-1da5-4230-bf8f-9d1068f7ddd5")
+	(paper "A4")
+	(title_block
+		(title "Badge-HackGDL-2026")
+		(date "2026-01-15")
+		(rev "v1.0")
+		(company "Electronic Cats")
+		(comment 1 "Lizeth Gallegos Martínez")
+	)
+	(lib_symbols)
+	(junction
+		(at 193.04 138.43)
+		(diameter 0)
+		(color 255 38 39 1)
+		(uuid "c20fdc4a-a5bb-440d-b90c-82a543de4138")
+	)
+	(wire
+		(pts
+			(xy 186.69 83.82) (xy 200.66 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05eba75b-0986-4859-a882-8770775795ee")
+	)
+	(wire
+		(pts
+			(xy 186.69 91.44) (xy 200.66 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "089ff2fe-5d0e-4f8a-92dc-9d3ef9c5cbea")
+	)
+	(wire
+		(pts
+			(xy 186.69 96.52) (xy 200.66 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09870f36-5fc1-4ed4-86c4-e9fcf11efdf8")
+	)
+	(wire
+		(pts
+			(xy 99.06 104.14) (xy 154.94 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13afa971-d0f4-4349-846e-946ef021718c")
+	)
+	(wire
+		(pts
+			(xy 129.54 72.39) (xy 154.94 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 59 54 1)
+		)
+		(uuid "2cf91e2c-374f-4b4d-be45-cd055d855544")
+	)
+	(wire
+		(pts
+			(xy 129.54 80.01) (xy 154.94 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f5d7be5-a7fa-44f0-99b0-2de808dda222")
+	)
+	(wire
+		(pts
+			(xy 129.54 77.47) (xy 154.94 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "307bf6f9-7554-4124-8df4-82a9ee0b0710")
+	)
+	(wire
+		(pts
+			(xy 186.69 115.57) (xy 200.66 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31e7ef8f-d8aa-4e29-8c23-1ce40c506083")
+	)
+	(wire
+		(pts
+			(xy 99.06 99.06) (xy 154.94 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c387f0a-a0ff-4e12-8690-100904a4f4ff")
+	)
+	(wire
+		(pts
+			(xy 186.69 86.36) (xy 200.66 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "408eaaff-53ba-42d4-ba39-7e4298f90550")
+	)
+	(wire
+		(pts
+			(xy 186.69 76.2) (xy 200.66 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4741eeeb-db35-44fd-8e56-a46f6c0dd145")
+	)
+	(wire
+		(pts
+			(xy 186.69 93.98) (xy 200.66 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d505f18-bbf0-4f87-a843-cb7b1da5a7a3")
+	)
+	(wire
+		(pts
+			(xy 99.06 93.98) (xy 154.94 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51f409e1-66a0-4d94-aa5a-f73704e57415")
+	)
+	(wire
+		(pts
+			(xy 99.06 111.76) (xy 113.03 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 38 39 1)
+		)
+		(uuid "5276bda6-bac3-4394-9eb0-1eecab25c8bd")
+	)
+	(wire
+		(pts
+			(xy 186.69 118.11) (xy 200.66 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5858452a-5ac4-488d-abc2-8362859cb774")
+	)
+	(wire
+		(pts
+			(xy 99.06 106.68) (xy 154.94 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5aebaddc-f2ba-4aa8-a960-450464b14e52")
+	)
+	(wire
+		(pts
+			(xy 186.69 120.65) (xy 200.66 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b93dd88-eac4-4e38-9b6e-71b9df7bb7fd")
+	)
+	(wire
+		(pts
+			(xy 99.06 96.52) (xy 154.94 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61ff10ce-0c75-4875-9fe8-11c554a0627a")
+	)
+	(wire
+		(pts
+			(xy 99.06 85.09) (xy 107.95 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b9225c7-677b-4ebb-be24-83eb9c9e3db1")
+	)
+	(wire
+		(pts
+			(xy 186.69 78.74) (xy 200.66 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8897ddfa-aba9-41bb-819d-832156283e7e")
+	)
+	(wire
+		(pts
+			(xy 186.69 125.73) (xy 200.66 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d09f348-0960-493f-a7ca-eff713b1a891")
+	)
+	(wire
+		(pts
+			(xy 200.66 99.06) (xy 193.04 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 38 39 1)
+		)
+		(uuid "9a282f18-1a6e-4c9d-9521-addfbc96e6d4")
+	)
+	(wire
+		(pts
+			(xy 186.69 73.66) (xy 200.66 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e9a05f5-4479-468e-9ffa-adde3343be40")
+	)
+	(wire
+		(pts
+			(xy 193.04 99.06) (xy 193.04 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 38 39 1)
+		)
+		(uuid "b7d634af-3179-4bb8-b677-198b793e2146")
+	)
+	(wire
+		(pts
+			(xy 186.69 123.19) (xy 200.66 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bba424e2-75d0-4e64-8222-a1d4554373f6")
+	)
+	(wire
+		(pts
+			(xy 113.03 111.76) (xy 113.03 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 38 39 1)
+		)
+		(uuid "c0582a8e-d84c-4dbc-9947-66c713e0eb9c")
+	)
+	(wire
+		(pts
+			(xy 186.69 130.81) (xy 200.66 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dddd71a9-6834-4b8f-a445-5bd4e62331aa")
+	)
+	(wire
+		(pts
+			(xy 186.69 88.9) (xy 200.66 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df9987f8-0bb8-417d-b23f-8b428a2d6d9c")
+	)
+	(wire
+		(pts
+			(xy 186.69 81.28) (xy 200.66 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9b986df-ab41-4b09-add0-f7a898a86d5c")
+	)
+	(wire
+		(pts
+			(xy 186.69 113.03) (xy 200.66 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed34d15c-4b08-48b2-b6f0-507d940dc844")
+	)
+	(wire
+		(pts
+			(xy 186.69 128.27) (xy 200.66 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0cd9a4c-cb06-4080-a9e6-aeb87641648c")
+	)
+	(wire
+		(pts
+			(xy 193.04 138.43) (xy 200.66 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 38 39 1)
+		)
+		(uuid "f2b76384-7c6f-4375-a0db-842bc128b27b")
+	)
+	(wire
+		(pts
+			(xy 129.54 74.93) (xy 154.94 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f97679da-c50d-408a-b3b6-70ba23dfaf1c")
+	)
+	(wire
+		(pts
+			(xy 113.03 138.43) (xy 193.04 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 38 39 1)
+		)
+		(uuid "fbd40b68-b485-47cc-84ab-ec27d41a5add")
+	)
+	(sheet
+		(at 200.66 109.474)
+		(size 19.558 32.766)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5a360f26-70d4-4176-9a29-c32de3cbc2f1")
+		(property "Sheetname" "Otros"
+			(at 200.66 108.7624 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Otros.kicad_sch"
+			(at 200.66 142.8246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SCL" bidirectional
+			(at 200.66 115.57 180)
+			(uuid "de0008d3-7cc3-4838-ae96-a1b710a837e3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA" bidirectional
+			(at 200.66 113.03 180)
+			(uuid "0fe9607f-97d9-4299-9b81-ed612d7e44f2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+3.3v" input
+			(at 200.66 138.43 180)
+			(uuid "575c2966-b00e-4d38-ae63-98836530447e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DOWN" input
+			(at 200.66 118.11 180)
+			(uuid "d5129e83-5e1c-4c63-b912-03d4b02ee94e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LEFT" input
+			(at 200.66 120.65 180)
+			(uuid "912b0147-1292-4f11-8b3e-c24912fcf1b8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PICTURE" input
+			(at 200.66 123.19 180)
+			(uuid "256f6d41-e080-48ff-84e3-980ae7fd58cc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RIGHT" input
+			(at 200.66 125.73 180)
+			(uuid "e20c7185-6075-4e41-9088-6123ec11c92d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "UP" input
+			(at 200.66 128.27 180)
+			(uuid "f212262a-5e3e-4caa-abc5-c0c66abae0b0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DIN_IR" input
+			(at 200.66 130.81 180)
+			(uuid "ecfcc32f-abf8-4c1d-86a2-bd0078439e4f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Badge-HackGDL-2026"
+				(path "/aee06ce3-1da5-4230-bf8f-9d1068f7ddd5"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 200.66 71.12)
+		(size 18.796 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "81efd129-08c1-4996-9ee0-a58d47ad59bf")
+		(property "Sheetname" "Cam"
+			(at 200.66 70.4084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Cam.kicad_sch"
+			(at 200.66 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CSI_SCK" input
+			(at 200.66 76.2 180)
+			(uuid "aa804692-6c00-4b77-b4ab-d0c6cd202403")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CSI_SDA" bidirectional
+			(at 200.66 78.74 180)
+			(uuid "e076d629-0332-4cf0-9ea8-681edfe6a4db")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MCSI_CKN" output
+			(at 200.66 81.28 180)
+			(uuid "a3852516-95f7-477e-a6f2-4e13d8402a07")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MCSI_CKP" output
+			(at 200.66 83.82 180)
+			(uuid "5c57db55-ec18-4d51-bda5-846e2f8b3d88")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MCSI_D0N" output
+			(at 200.66 86.36 180)
+			(uuid "52aa52eb-b74f-41b1-aa3b-a29e0c191f21")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MCSI_D0P" output
+			(at 200.66 88.9 180)
+			(uuid "93ae68fb-98d2-4256-870d-4f0baadb3526")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MCSI_D1N" output
+			(at 200.66 91.44 180)
+			(uuid "37805347-e14a-4276-9556-db52487c7a15")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MCSI_D1P" output
+			(at 200.66 93.98 180)
+			(uuid "fa88f914-8456-47b1-8808-95b8b70a702b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MCSI_MCLK" input
+			(at 200.66 96.52 180)
+			(uuid "a0d2a7ca-7082-4c69-9021-64da0191054e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MCSI_RST" input
+			(at 200.66 73.66 180)
+			(uuid "78293229-a45b-4933-b43e-717ff9fb6d67")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+3.3v" input
+			(at 200.66 99.06 180)
+			(uuid "7d1e4eda-89b4-43dc-88c2-4fd80f86ed81")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Badge-HackGDL-2026"
+				(path "/aee06ce3-1da5-4230-bf8f-9d1068f7ddd5"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 79.756 82.296)
+		(size 19.304 33.274)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9216b3fb-a893-416d-8287-fad5dc178c46")
+		(property "Sheetname" "USB"
+			(at 79.756 81.5844 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB.kicad_sch"
+			(at 79.756 116.586 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "USB_DET" output
+			(at 99.06 99.06 0)
+			(uuid "4476be3f-7302-45ad-9d60-e0f9bd0aec61")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VCC" output
+			(at 99.06 85.09 0)
+			(uuid "cb57b8cc-fa8a-450f-9bb7-a58afdd15254")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "D+" bidirectional
+			(at 99.06 93.98 0)
+			(uuid "46ef5a01-9261-48c6-aea4-b2845469c976")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "D-" bidirectional
+			(at 99.06 96.52 0)
+			(uuid "57d41230-bc58-46dd-aa49-533ae009ac28")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "+3.3v" output
+			(at 99.06 111.76 0)
+			(uuid "90c7e15e-a7c8-429d-a1d4-2d736ccb8ca2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Battery" output
+			(at 99.06 104.14 0)
+			(uuid "f84ae643-b6fe-40cc-81d6-33b46dbdddac")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Enable" input
+			(at 99.06 106.68 0)
+			(uuid "b940eedb-6028-4422-94a5-d4b24342bfa8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Badge-HackGDL-2026"
+				(path "/aee06ce3-1da5-4230-bf8f-9d1068f7ddd5"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 107.95 68.326)
+		(size 21.59 20.828)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "be913e68-fee3-438d-ad2e-2a6c5a9b4d89")
+		(property "Sheetname" "Buck_Converter"
+			(at 107.95 67.6144 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Buck_Converter.kicad_sch"
+			(at 107.95 89.7386 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "VCC_DDR" output
+			(at 129.54 74.93 0)
+			(uuid "d94f22ce-bb02-495c-9d45-1ec3f1accf70")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "v_0.9v" output
+			(at 129.54 77.47 0)
+			(uuid "f8f06194-1c4a-46e8-8ab4-d3b3973bf845")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "v_1.8v" output
+			(at 129.54 80.01 0)
+			(uuid "d3d67480-2091-4822-a815-8caa4896c04a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "v_3v3" output
+			(at 129.54 72.39 0)
+			(uuid "9dee3ee7-6d65-4d2b-8493-ad5cf6b4b8ff")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VCC" input
+			(at 107.95 85.09 180)
+			(uuid "b1bd585e-51c7-41f7-8074-99b43152eca7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Badge-HackGDL-2026"
+				(path "/aee06ce3-1da5-4230-bf8f-9d1068f7ddd5"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 120.65 113.03)
+		(size 22.86 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "dd803ed6-1aa2-418d-9e6a-4bdae0300c80")
+		(property "Sheetname" "Support pins"
+			(at 120.65 112.3184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Support pins.kicad_sch"
+			(at 120.65 131.3946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Badge-HackGDL-2026"
+				(path "/aee06ce3-1da5-4230-bf8f-9d1068f7ddd5"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 154.94 69.342)
+		(size 31.75 65.278)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f95a1a7a-56c9-4e5d-a871-88a3235c1340")
+		(property "Sheetname" "MCU"
+			(at 154.94 69.088 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 154.94 135.382 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Battery" input
+			(at 154.94 104.14 180)
+			(uuid "3ec69325-af1a-4500-b709-3dc9b92fbe7a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CSI_SCK" input
+			(at 186.69 76.2 0)
+			(uuid "b2e0a466-e3d2-4c9c-9395-04f3d457b897")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CSI_SDA" bidirectional
+			(at 186.69 78.74 0)
+			(uuid "d5564f96-2d90-4d24-9428-35f8946d6777")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "D+" bidirectional
+			(at 154.94 93.98 180)
+			(uuid "d7630d9a-c86a-413a-882d-64fa76be0f74")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "D-" bidirectional
+			(at 154.94 96.52 180)
+			(uuid "60330976-7a18-4ed6-af9c-a9b2f167389b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Enable" output
+			(at 154.94 106.68 180)
+			(uuid "3d9feec4-6e5c-4481-8591-78cf4218fea8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MCSI_CKN" input
+			(at 186.69 81.28 0)
+			(uuid "737b3058-c6af-4aee-a853-7ce814fae698")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MCSI_CKP" input
+			(at 186.69 83.82 0)
+			(uuid "47e70186-3d11-47be-b2ef-9b4071dbcc63")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MCSI_D0N" input
+			(at 186.69 86.36 0)
+			(uuid "ac1d055c-d050-4eec-8aff-c45d7d8b23b9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MCSI_D0P" input
+			(at 186.69 88.9 0)
+			(uuid "cc7c458d-2338-419d-b99b-5d593202c057")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MCSI_D1N" input
+			(at 186.69 91.44 0)
+			(uuid "e5a281e7-d487-4355-9b7f-47b5f3b2cbad")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MCSI_D1P" input
+			(at 186.69 93.98 0)
+			(uuid "71e87941-32ce-4bde-a50c-1c06edfec628")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MCSI_MCLK" input
+			(at 186.69 96.52 0)
+			(uuid "325dea6c-2bf7-4c27-85a8-eb48e31e1770")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MCSI_RST" input
+			(at 186.69 73.66 0)
+			(uuid "25927617-1953-466f-ae6c-558e6d8f9e26")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCL" bidirectional
+			(at 186.69 115.57 0)
+			(uuid "632444b1-7917-406b-97ff-2411a50b6189")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDA" bidirectional
+			(at 186.69 113.03 0)
+			(uuid "5aa51957-14c7-46cb-b473-1d89bc1612f2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_DET" input
+			(at 154.94 99.06 180)
+			(uuid "784e78f6-5465-487a-866a-d51f44dee94c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VCC_DDR" input
+			(at 154.94 74.93 180)
+			(uuid "fb66742f-2189-4602-a3f6-841c41da5faa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "v_0.9v" input
+			(at 154.94 77.47 180)
+			(uuid "f4c7275f-8712-4fd3-beab-35f8f51c4d9a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "v_1.8v" input
+			(at 154.94 80.01 180)
+			(uuid "6e535fe9-8265-4624-a3da-64c176f7f62e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "v_3v3" input
+			(at 154.94 72.39 180)
+			(uuid "5bbf2a00-1767-4108-a29f-2e2c314ed26a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DOWN" input
+			(at 186.69 118.11 0)
+			(uuid "4e78ee53-4899-4865-aa47-f69328d5df8f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LEFT" input
+			(at 186.69 120.65 0)
+			(uuid "40cba514-8617-41d2-8183-973b332de906")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PICTURE" input
+			(at 186.69 123.19 0)
+			(uuid "706aa83c-2c90-42dd-af9b-776ef558a941")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RIGHT" input
+			(at 186.69 125.73 0)
+			(uuid "aaeaeaf1-e507-405f-82e4-b020ed4e83fe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "UP" input
+			(at 186.69 128.27 0)
+			(uuid "41f6da2a-f9fb-4535-8cc0-0483433f96bc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DIN_IR" output
+			(at 186.69 130.81 0)
+			(uuid "f709b085-52e6-4e8c-8a4d-edfa05df976b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Badge-HackGDL-2026"
+				(path "/aee06ce3-1da5-4230-bf8f-9d1068f7ddd5"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
