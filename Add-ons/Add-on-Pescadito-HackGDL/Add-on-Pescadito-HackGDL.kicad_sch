@@ -1,0 +1,273 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "6f8b0e0b-2350-4e6d-b556-35a34420de26")
+	(paper "A5")
+	(title_block
+		(title "Add-on_Pescaditos")
+		(date "2026-01-28")
+		(rev "v1.0")
+		(company "Electronic Cats")
+		(comment 1 "Lizeth Gallegos Martínez")
+	)
+	(lib_symbols)
+	(sheet
+		(at 47.625 66.04)
+		(size 26.67 14.605)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "05eba94d-75a3-4221-bd46-fb13386a1d8a")
+		(property "Sheetname" "Yellow_Fish"
+			(at 47.625 65.3284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Yellow_Fish.kicad_sch"
+			(at 47.625 81.2296 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Add-on-Pescadito-HackGDL"
+				(path "/6f8b0e0b-2350-4e6d-b556-35a34420de26"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 85.725 36.195)
+		(size 26.035 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "064323a6-e5ab-4481-9555-f2385b591162")
+		(property "Sheetname" "Pink_Fish"
+			(at 85.725 35.4834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Pink_Fish.kicad_sch"
+			(at 85.725 52.0196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Add-on-Pescadito-HackGDL"
+				(path "/6f8b0e0b-2350-4e6d-b556-35a34420de26"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 123.19 36.195)
+		(size 26.67 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "131499fa-6047-4b92-afd2-f2ce5010256b")
+		(property "Sheetname" "Blue_Fish"
+			(at 123.19 35.4834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Blue_Fish.kicad_sch"
+			(at 123.19 52.0196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Add-on-Pescadito-HackGDL"
+				(path "/6f8b0e0b-2350-4e6d-b556-35a34420de26"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 123.19 66.04)
+		(size 26.67 14.605)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "531a6719-f66f-4393-8556-39a360ed86ac")
+		(property "Sheetname" "Orange_Fish"
+			(at 123.19 65.3284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Orange_Fish.kicad_sch"
+			(at 123.19 81.2296 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Add-on-Pescadito-HackGDL"
+				(path "/6f8b0e0b-2350-4e6d-b556-35a34420de26"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 85.725 66.04)
+		(size 26.035 14.605)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "769eef87-3ca4-47b2-9d67-390b50270661")
+		(property "Sheetname" "Green_Fish"
+			(at 85.725 65.3284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Green_Fish.kicad_sch"
+			(at 85.725 81.2296 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Add-on-Pescadito-HackGDL"
+				(path "/6f8b0e0b-2350-4e6d-b556-35a34420de26"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 47.625 36.195)
+		(size 26.67 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fd99f59f-64e8-437f-aa27-cf7028e7f1a7")
+		(property "Sheetname" "Red_Fish"
+			(at 47.625 35.4834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Red_Fish.kicad_sch"
+			(at 47.625 52.0196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Add-on-Pescadito-HackGDL"
+				(path "/6f8b0e0b-2350-4e6d-b556-35a34420de26"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
