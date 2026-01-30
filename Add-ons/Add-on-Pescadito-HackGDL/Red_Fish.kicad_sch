@@ -3601,15 +3601,15 @@
 		(fields_autoplaced yes)
 		(uuid "e640de10-21d7-4eeb-a209-127efa5b9a1a")
 		(property "Reference" "D2"
-			(at 184.2135 26.924 0)
+			(at 184.2135 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Red"
-			(at 184.2135 29.464 0)
+		(property "Value" "White"
+			(at 184.2135 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3643,7 +3643,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" "C965812"
+		(property "LCSC#" "C84258"
 			(at 184.15 33.02 0)
 			(effects
 				(font

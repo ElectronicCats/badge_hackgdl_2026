@@ -3007,7 +3007,7 @@
 				)
 			)
 		)
-		(property "Value" "Red"
+		(property "Value" "Pink"
 			(at 183.8325 43.307 0)
 			(effects
 				(font
@@ -3042,7 +3042,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" "C965812"
+		(property "LCSC#" "C965821"
 			(at 183.769 47.498 0)
 			(effects
 				(font
@@ -3178,7 +3178,7 @@
 				)
 			)
 		)
-		(property "Value" "Red"
+		(property "Value" "Pink"
 			(at 183.642 89.662 0)
 			(effects
 				(font
@@ -3213,7 +3213,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" "C965812"
+		(property "LCSC#" "C965821"
 			(at 183.769 93.218 0)
 			(effects
 				(font
@@ -3350,7 +3350,7 @@
 				)
 			)
 		)
-		(property "Value" "Red"
+		(property "Value" "White"
 			(at 183.8325 29.972 0)
 			(effects
 				(font
@@ -3385,7 +3385,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" "C965812"
+		(property "LCSC#" "C84258"
 			(at 183.769 33.528 0)
 			(effects
 				(font
@@ -3436,7 +3436,7 @@
 				)
 			)
 		)
-		(property "Value" "Red"
+		(property "Value" "Pink"
 			(at 183.8325 59.182 0)
 			(effects
 				(font
@@ -3471,7 +3471,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" "C965812"
+		(property "LCSC#" "C965821"
 			(at 183.769 62.738 0)
 			(effects
 				(font
@@ -3608,7 +3608,7 @@
 				)
 			)
 		)
-		(property "Value" "Red"
+		(property "Value" "Pink"
 			(at 183.8325 74.422 0)
 			(effects
 				(font
@@ -3643,7 +3643,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" "C965812"
+		(property "LCSC#" "C965821"
 			(at 183.769 77.978 0)
 			(effects
 				(font
