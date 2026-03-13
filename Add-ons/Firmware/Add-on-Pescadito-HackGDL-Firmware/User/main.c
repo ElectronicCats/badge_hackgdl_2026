@@ -63,6 +63,7 @@ void eyeSequence()
 // Sequence 2
 void finsSequence()
 {
+  HAL_GPIO_OnPin(GPIOA, GPIO_PIN_5);
   HAL_GPIO_OnPin(GPIOF, GPIO_PIN_0); 
   HAL_Delay(delay2);
   HAL_GPIO_OnPin(GPIOA, GPIO_PIN_1);
@@ -108,6 +109,7 @@ void finsSequence()
   HAL_GPIO_OffPin(GPIOA, GPIO_PIN_6);
   HAL_GPIO_OffPin(GPIOF, GPIO_PIN_0);
   HAL_GPIO_OffPin(GPIOA, GPIO_PIN_7);
+  HAL_GPIO_OffPin(GPIOA, GPIO_PIN_5);
   HAL_Delay(delay);
 }
 
