@@ -95,6 +95,8 @@ El badge cuenta con un interruptor físico de encendido/apagado.
 - Coloca el switch en la posición **ON**.
 - Una vez encendido, el sistema iniciará automáticamente.
 
+Como confirmación visual de que el dispositivo arrancó correctamente, al iniciar verás una **secuencia de parpadeo de color verde** en el NeoPixel: dos parpadeos de 1 segundo cada uno (500 ms encendido + 500 ms apagado). Después de esa secuencia, el LED entra a la rutina de animación normal.
+
 ![Switch encendido](images/switch_encendido.png)
 ***
 3. **Tomar una fotografía**
@@ -102,6 +104,8 @@ El badge cuenta con un interruptor físico de encendido/apagado.
 Con el badge encendido, presiona el botón superior para capturar una fotografía.
 
 Cada imagen se guarda automáticamente en la memoria interna del dispositivo.
+
+Al presionar el botón de captura (`KEY_ENTER`), el NeoPixel ejecuta un **parpadeo de confirmación en color blanco**: dos parpadeos rápidos de 500 ms cada uno (250 ms encendido + 250 ms apagado). Este indicador se ejecuta aunque haya otra rutina en curso e interrumpe brevemente la animación actual; al terminar, la rutina continúa como antes.
 
 ![Boton captura de imagen](images/boton_disparo.png)
 ***
@@ -658,7 +662,6 @@ Una vez habilitado el módulo SPI y generado el sistema con Buildroot, el siguie
 #include <sys/ioctl.h>
 #include <errno.h>
 #include <time.h>
-#include "rk_mpi_mb.h"
 #define SPI_DEVICE_PATH "/dev/spidev0.0"
 #define SPI_SPEED 2400000
 #define NUM_LEDS 1
@@ -666,6 +669,7 @@ Una vez habilitado el módulo SPI y generado el sistema con Buildroot, el siguie
 #define EVENT_DEVICE "/dev/input/event1"
 
 static volatile int running = 1;
+static volatile sig_atomic_t blink_request = 0;
 
 typedef struct {
     int current_mode;
@@ -709,6 +713,25 @@ void color_to_spi(uint8_t r, uint8_t g, uint8_t b, uint8_t *out, int *idx) {
     byte_to_spi(g, out, idx);
     byte_to_spi(r, out, idx);
     byte_to_spi(b, out, idx);
+}
+
+void color_blink(int fd, uint8_t r, uint8_t g, uint8_t b, int count, int half_period_us) {
+    uint8_t buf[NUM_LEDS * 24];
+    int len;
+
+    for (int n = 0; n < count; n++) {
+        len = 0;
+        for (int i = 0; i < NUM_LEDS; i++)
+            color_to_spi(r, g, b, buf, &len);
+        write(fd, buf, len);
+        usleep(half_period_us);
+
+        len = 0;
+        for (int i = 0; i < NUM_LEDS; i++)
+            color_to_spi(0, 0, 0, buf, &len);
+        write(fd, buf, len);
+        usleep(half_period_us);
+    }
 }
 
 void make_frame(int mode, int step, uint8_t *buf, int *len) {
@@ -782,7 +805,13 @@ void *led_thread(void *arg) {
     int len;
     int step = 0;
 
+    color_blink(fd, 0, 255, 0, 2, 500000);
+
     while (running) {
+        if (blink_request) {
+            blink_request = 0;
+            color_blink(fd, 255, 255, 255, 2, 250000);
+        }
         int mode_now = get_mode();
         make_frame(mode_now, step, buffer, &len);
         write(fd, buffer, len);
@@ -811,6 +840,8 @@ void *button_thread(void *arg) {
                         next_mode();
                     else if (ev.code == KEY_DOWN)
                         prev_mode();
+                    else if (ev.code == KEY_ENTER)
+                        blink_request = 1;
                 }
             }
         }
@@ -849,6 +880,7 @@ Este programa:
 - Permite cambiar el modo usando botones físicos
 - Ejecuta el control de LEDs y la lectura de botones en hilos separados (multithreading)
 - Maneja señales del sistema para finalizar correctamente (CTRL+C)
+- Muestra un **indicador verde de arranque** y un **parpadeo blanco al capturar fotografía** (`KEY_ENTER`)
 
 El programa utiliza:
 - `/dev/spidev0.0` para transmitir datos a los LEDs
@@ -878,6 +910,12 @@ static volatile int running = 1;
 ```
 Variable global que controla la ejecución del programa.<br>
 El modificador `volatile` evita que el compilador optimice su lectura, ya que es compartida entre hilos.
+
+```
+static volatile sig_atomic_t blink_request = 0;
+```
+Bandera compartida entre el hilo de botones y el hilo de LEDs. El hilo de botones la activa (`= 1`) cuando se presiona `KEY_ENTER`, y el hilo de LEDs la consume (`= 0`) para disparar el parpadeo blanco de confirmación.<br>
+Se usa `sig_atomic_t` porque su lectura/escritura es atómica, lo que permite señalizar entre hilos sin necesidad de un mutex adicional.
 
 **Estructura del estado del controlador**
 ```
@@ -954,6 +992,22 @@ double brightness = (sin(angle) + 1.0) / 2.0;
 ```
 genera un efecto suave de encendido/apagado.
 ***
+### **5.1 Parpadeo de indicador (`color_blink`)**
+```
+void color_blink(int fd, uint8_t r, uint8_t g, uint8_t b, int count, int half_period_us)
+```
+Función auxiliar que reproduce un parpadeo síncrono del NeoPixel en un color arbitrario. No depende del hilo principal de animación: escribe directamente sobre el `fd` del SPI con `usleep()` entre transiciones, por lo que **bloquea** durante el parpadeo (esto es intencional: queremos un indicador limpio y predecible).
+
+Parámetros:
+- `fd` → file descriptor del SPI ya abierto
+- `r, g, b` → color del parpadeo
+- `count` → cuántas veces parpadear
+- `half_period_us` → duración (en microsegundos) de cada semiciclo (encendido y apagado)
+
+Cada llamada produce `count` ciclos de la forma: encendido `half_period_us` → apagado `half_period_us`. Esta función se reutiliza para los dos indicadores del sistema:
+- **Indicador de arranque**: `color_blink(fd, 0, 255, 0, 2, 500000)` → 2 parpadeos verdes de 1 s cada uno
+- **Indicador de captura**: `color_blink(fd, 255, 255, 255, 2, 250000)` → 2 parpadeos blancos de 0.5 s cada uno
+***
 ### **6. Hilo de LEDs**
 ```
 void *led_thread(void *arg)
@@ -964,13 +1018,18 @@ Este hilo:<br>
     - Modo SPI
     - Bits por palabra
     - Velocidad
-3. Entra en un bucle:
+3. Ejecuta el **parpadeo verde de arranque** (2 parpadeos de 1 s) como confirmación visual de que el dispositivo se inicializó correctamente:
+```
+color_blink(fd, 0, 255, 0, 2, 500000);
+```
+4. Entra en un bucle:
+    - Revisa la bandera `blink_request`. Si está activa, la limpia y ejecuta el **parpadeo blanco** (`color_blink(fd, 255, 255, 255, 2, 250000)`) para confirmar la captura de fotografía. Esto interrumpe brevemente la rutina actual durante 1 s y al terminar la animación continúa donde iba.
     - Obtiene el modo actual
     - Genera el frame
     - Lo envía con write()
     - Espera 50 ms
 
-Esto crea la animación continua.
+Esto crea la animación continua y permite que los indicadores se muestren sobre cualquier rutina sin necesidad de pausarla manualmente.
 ***
 ### **7. Hilo de botones**
 ```
@@ -982,8 +1041,9 @@ Este hilo:
 - Si se presiona:
     - KEY_LEFT → siguiente modo
     - KEY_DOWN → modo anterior
+    - KEY_ENTER → levanta la bandera `blink_request = 1` para que el hilo de LEDs ejecute el parpadeo blanco de confirmación de captura de fotografía
 
-Permite cambiar efectos en tiempo real.
+Permite cambiar efectos en tiempo real y notificar al hilo de LEDs eventos puntuales (como la toma de foto) sin acoplar ambos hilos: el hilo de botones solo levanta la bandera y vuelve inmediatamente a escuchar; el hilo de LEDs es quien decide cuándo atender la solicitud.
 ***
 ### **8. Manejo de señales**
 ```
