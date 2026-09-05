@@ -1687,5 +1687,3 @@ Por favor, apoya a Electronic Cats y al hardware abierto comprando productos de 
 
 Gracias a toda la comunidad de hardware abierto y a todas las personas que hacen posibles proyectos como este.
 ---
-
-Nota: Este badge está diseñado para BugCon 2025. Para más información sobre el evento, visita la página oficial de BugCon.
