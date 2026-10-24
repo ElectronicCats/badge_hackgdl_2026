@@ -46,7 +46,7 @@ Incluye el diseño principal:
 
 ### 2. Firmware (`luckfox-pico`)
 
-La capa de firmware vive en la rama `badge_hackgdl_2026_v2.0.0` del
+La capa de firmware vive en la rama `badge_hackgdl_2026_v2` del
 repositorio [`ElectronicCats/luckfox-pico`](https://github.com/ElectronicCats/luckfox-pico).
 Incluye:
 
@@ -302,7 +302,7 @@ El firmware se organiza en una capa limpia dentro de `luckfox-pico`:
 - `badge/scripts/`: build, flasheo y pruebas.
 
 La documentación de build y flasheo está en el
-[README de la capa](https://github.com/ElectronicCats/luckfox-pico/blob/badge_hackgdl_2026_v2.0.0/badge/README.md).
+[README de la capa](https://github.com/ElectronicCats/luckfox-pico/blob/badge_hackgdl_2026_v2/badge/README.md).
 
 ---
 
@@ -409,7 +409,7 @@ sudo apt install android-tools-adb
 ### Clonar y compilar
 
 ```bash
-git clone -b badge_hackgdl_2026_v2.0.0 --single-branch \
+git clone -b badge_hackgdl_2026_v2 --single-branch \
   https://github.com/ElectronicCats/luckfox-pico.git
 cd luckfox-pico
 ./badge/build.sh all
@@ -442,7 +442,7 @@ lo que un rebuild limpio no es byte-idéntico a la imagen de release. La imagen
 validada de esta versión tiene:
 
 ```text
-SHA256 83929f07b9f4e57ffcd72fde0e7e70784cb99dfbb0c3a76c7f7d98b170fce45e
+SHA256 21a1dc67597e43aa473b774031d7ca5f01394b59c68c1778c478361bb57895eb
 ```
 
 La imagen validada se publicará en la sección **Releases** del repositorio; el
@@ -585,6 +585,13 @@ El firmware usa System V init con un `rcS` propio:
 Los scripts `S49mtp` y `rcS` están en
 `badge/configs/overlay-badge-fastboot/`.
 
+### Reconexión USB
+
+Si desconectas y vuelves a conectar el USB con la badge encendida, `S49mtp`
+reengancha el gadget automáticamente; no hace falta cortar la alimentación de
+la batería. El watchdog registra los eventos en
+`/userdata/badge/usb_watchdog.log`.
+
 ---
 
 ## 🖼️ Overlay de la imagen
@@ -657,7 +664,7 @@ Si la badge ya está en Linux con ADB:
 
 ## 📖 Documentación Adicional
 
-- [Capa de firmware y build](https://github.com/ElectronicCats/luckfox-pico/blob/badge_hackgdl_2026_v2.0.0/badge/README.md)
+- [Capa de firmware y build](https://github.com/ElectronicCats/luckfox-pico/blob/badge_hackgdl_2026_v2/badge/README.md)
 - [Wiki de Luckfox Pico](https://wiki.luckfox.com/Luckfox-Pico-RV1106)
 - [Datasheet RV1106](https://files.luckfox.com/wiki/Luckfox-Pico/PDF/Rockchip%20RV1106%20Datasheet%20V1.7-20231218.pdf)
 - [KiCad Documentation](https://docs.kicad.org/)

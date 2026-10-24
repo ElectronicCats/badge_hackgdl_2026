@@ -1,4 +1,4 @@
 [submodule "luckfox-pico"]
 	path = luckfox-pico
 	url = https://github.com/ElectronicCats/luckfox-pico.git
-	branch = badge_hackgdl_2026_v2.0.0
+	branch = badge_hackgdl_2026_v2
