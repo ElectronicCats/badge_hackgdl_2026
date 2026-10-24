@@ -442,7 +442,7 @@ lo que un rebuild limpio no es byte-idéntico a la imagen de release. La imagen
 validada de esta versión tiene:
 
 ```text
-SHA256 83929f07b9f4e57ffcd72fde0e7e70784cb99dfbb0c3a76c7f7d98b170fce45e
+SHA256 21a1dc67597e43aa473b774031d7ca5f01394b59c68c1778c478361bb57895eb
 ```
 
 La imagen validada se publicará en la sección **Releases** del repositorio; el
@@ -584,6 +584,13 @@ El firmware usa System V init con un `rcS` propio:
 
 Los scripts `S49mtp` y `rcS` están en
 `badge/configs/overlay-badge-fastboot/`.
+
+### Reconexión USB
+
+Si desconectas y vuelves a conectar el USB con la badge encendida, `S49mtp`
+reengancha el gadget automáticamente; no hace falta cortar la alimentación de
+la batería. El watchdog registra los eventos en
+`/userdata/badge/usb_watchdog.log`.
 
 ---
 
