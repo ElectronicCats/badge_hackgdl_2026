@@ -46,7 +46,7 @@ Incluye el diseño principal:
 
 ### 2. Firmware (`luckfox-pico`)
 
-La capa de firmware vive en la rama `badge_hackgdl_2026_v2.0.0` del
+La capa de firmware vive en la rama `badge_hackgdl_2026_v2` del
 repositorio [`ElectronicCats/luckfox-pico`](https://github.com/ElectronicCats/luckfox-pico).
 Incluye:
 
@@ -302,7 +302,7 @@ El firmware se organiza en una capa limpia dentro de `luckfox-pico`:
 - `badge/scripts/`: build, flasheo y pruebas.
 
 La documentación de build y flasheo está en el
-[README de la capa](https://github.com/ElectronicCats/luckfox-pico/blob/badge_hackgdl_2026_v2.0.0/badge/README.md).
+[README de la capa](https://github.com/ElectronicCats/luckfox-pico/blob/badge_hackgdl_2026_v2/badge/README.md).
 
 ---
 
@@ -409,7 +409,7 @@ sudo apt install android-tools-adb
 ### Clonar y compilar
 
 ```bash
-git clone -b badge_hackgdl_2026_v2.0.0 --single-branch \
+git clone -b badge_hackgdl_2026_v2 --single-branch \
   https://github.com/ElectronicCats/luckfox-pico.git
 cd luckfox-pico
 ./badge/build.sh all
@@ -664,7 +664,7 @@ Si la badge ya está en Linux con ADB:
 
 ## 📖 Documentación Adicional
 
-- [Capa de firmware y build](https://github.com/ElectronicCats/luckfox-pico/blob/badge_hackgdl_2026_v2.0.0/badge/README.md)
+- [Capa de firmware y build](https://github.com/ElectronicCats/luckfox-pico/blob/badge_hackgdl_2026_v2/badge/README.md)
 - [Wiki de Luckfox Pico](https://wiki.luckfox.com/Luckfox-Pico-RV1106)
 - [Datasheet RV1106](https://files.luckfox.com/wiki/Luckfox-Pico/PDF/Rockchip%20RV1106%20Datasheet%20V1.7-20231218.pdf)
 - [KiCad Documentation](https://docs.kicad.org/)
